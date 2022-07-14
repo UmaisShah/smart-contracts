@@ -10,14 +10,6 @@ SCRIPTS
 The 'scripts' folder contains two example async/await scripts for deploying the 'Storage' contract.
 For the deployment of any other contract, 'contractName' and 'constructorArgs' should be updated (along with other code if required). 
 
-Also, there is a script containing some unit tests for Storage contract inside tests directory.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, 'require' statement is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE will be shown.'
 
 web 3 aur defi unisoap ,pencake ,nft smart contract par depend karta ha 
 solana ka smart contract rust ma likha jata ha
