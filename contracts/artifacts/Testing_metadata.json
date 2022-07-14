@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/solidity constructor.sol": "Testing"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/solidity constructor.sol": {
+			"keccak256": "0xe2de06aabb9c325c0a403bd60fff39a4d51f8c796a2659453242f79a8c66600b",
+			"urls": [
+				"bzz-raw://2e0ec29be90392acd7c3edf2d22d74b2f1258464bdba3a07d8200dcffaefbf50",
+				"dweb:/ipfs/QmevcDq1KV81GY9kt5eH9dKUfdk3XJ1oKQahwiKGK1yHPx"
+			]
+		}
+	},
+	"version": 1
+}

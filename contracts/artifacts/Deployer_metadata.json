@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getDeployerAccount",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/solidity deployer data.sol": "Deployer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/solidity deployer data.sol": {
+			"keccak256": "0x879a4bb9d4ff5040d95dc3ee9fba493385163a7fe36798072aaa0ddc17385f0b",
+			"urls": [
+				"bzz-raw://7e8712c8f20dff48b35ee1989685e7bea553f23c7ecc078f85ddd00a1b4c565d",
+				"dweb:/ipfs/QmVzWHKox314kNkQxJFaQkSdfkbc8D7fKNKLDQiKvxLxN8"
+			]
+		}
+	},
+	"version": 1
+}
