@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "mappingFunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/solidity mappings.sol": "Mapping"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/solidity mappings.sol": {
+			"keccak256": "0x70d5eb4a07e2678ce04f27e1bc927ec3bb91bbb83c7b8e43b6f8fdc6d299a13b",
+			"urls": [
+				"bzz-raw://ec8663614fbf7bf7b1520e08cb1a22a3a4b94b0cd8137a3522d8ca8df0ff760d",
+				"dweb:/ipfs/QmX96GJEfpeUXz6vUK1fRMFGXXWHbqHko5JB4GdvfakVDS"
+			]
+		}
+	},
+	"version": 1
+}
